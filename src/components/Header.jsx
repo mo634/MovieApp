@@ -7,7 +7,9 @@ import ModeSwitch from './ModeSwitch';
 import Link from 'next/link';
 function Header() {
     return (
-        <header className='dark:bg-gray-700 bg-secondary-color flex justify-between items-center p-[2%]'>
+        <header className='
+        text-main-text-color
+        dark:bg-gray-700 bg-secondary-color flex justify-between items-center p-[2%]'>
 
             <div className=" flex gap-4">
                 <MenuItem title="Home" Icon={AiFillHome} address="/" />

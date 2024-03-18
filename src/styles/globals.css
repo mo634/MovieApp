@@ -7,3 +7,6 @@ body{
     background-color: #F5F7F8;
 }
 
+.container{
+    @apply  mx-auto max-w-6xl 
+}

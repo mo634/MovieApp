@@ -9,7 +9,7 @@ function ThemeProviderComp({ children }) {
             <div className='min-h-screen
             transition-colors
             duration-500
-                text-main-text-color
+            dark:text-red-
                 dark:text-gray-200
                 dark:bg-gray-700
                 '>
